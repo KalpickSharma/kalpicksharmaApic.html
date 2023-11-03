@@ -42,6 +42,21 @@
     text-decoration: none;
     font-size: 14px;
 }
+.nav-bar ul li a::after {
+    content: '        ';
+    width: 0;
+    height: 2px;
+    background: #f8f4f4;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.5s;
+}
+.nav-bar ul li a:hover::after {
+    width: 50%;
+
+
+}
 .cta{
     display:flex;
     margin:10px 14px;
